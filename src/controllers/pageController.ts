@@ -19,7 +19,7 @@ export const showHomeForm: RequestHandler = async (req, res, next) => {
     const token = req.cookies.token;
     try {
         if (token) {
-            //decode the token to reach user and browser information which we save in controllers.
+            //decode the token to reach user id. showing user home page
             jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, async (err: jwt.VerifyErrors, decoded) => {
                 const user_id = decoded.userID
                 const user = await User.findOne(user_id)

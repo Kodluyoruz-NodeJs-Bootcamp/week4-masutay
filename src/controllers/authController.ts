@@ -118,6 +118,7 @@ export const logout: RequestHandler = async (req, res) => {
   });
 };
 
+//change user role from dashboard
 export const updateUserRole: RequestHandler = async (req, res) => {
   // we select user by using id and update user role 
   const id = req.params.id;
