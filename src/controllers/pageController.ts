@@ -22,8 +22,7 @@ export const showHomeForm: RequestHandler = async (req, res, next) => {
             //decode the token to reach user id. showing user home page
             jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, async (err: jwt.VerifyErrors, decoded) => {
                 const user_id = decoded.userID
-                const user = await User.findOne(user_id)
-                console.log(user)
+                const user = await User.findOne(user_id)           
                 res.render("home", { user: user, layout: "./layout/auth_layout.ejs" })
             })
         }
