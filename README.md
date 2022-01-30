@@ -94,7 +94,7 @@ https://user-images.githubusercontent.com/59343235/151716551-26ac1ac4-163d-40b2-
  
 ![Screenshot_2](https://user-images.githubusercontent.com/59343235/149677547-841b3051-ea70-4bdd-87a4-b1a4144a7ec5.png)
 
-## Dashboar Page
+## Dashboard Page
 ![image](https://user-images.githubusercontent.com/59343235/151716134-001436a9-1ebb-4028-a967-5e574f129c12.png)
 
 ## User Home Page 
