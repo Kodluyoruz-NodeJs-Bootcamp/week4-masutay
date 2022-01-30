@@ -105,11 +105,7 @@
                                             <form action="/update/<%= user.id %>?_method=PUT" method="POST">
                                                 <button class="btn btn-primary rounded-1 text-white">Change
                                                     Status</button>
-                                            </form>
-                                            <!-- <a href="/update/?_method=POST"
-                                                onclick="return confirm('ARE YOU SURE')"
-                                                class="btn btn-primary rounded-0 text-white"><span>Change
-                                                    Status</span></a> -->   
+                                            </form>                                              
                                         </td>
                                         <td><%- user_Row_Number++ %></td>
                                         <td><% if(user.isAdmin){ %> Admin <% } else { %> User <%  } %></td>
